@@ -14,7 +14,7 @@ Karelian alphabet is combination of Finnic and Slavic characteristics. Letters i
 ### Usage
 
 
-Letter lists:
+Current Karelian alphabet (2007 –):
 
 ```javascript
 const {
