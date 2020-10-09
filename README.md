@@ -34,6 +34,26 @@ console.log(ALPHABET) // combined upper & lower case.
 
 ```
 
+Olonets Karelian alphabet (1989 – 2007):
+
+```javascript
+const {
+  OLONETS_ALPHABET,
+  OLONETS_LOWER_CASE,
+  OLONETS_UPPER_CASE,
+} = require('karelian-alphabet')
+
+console.log(OLONETS_LOWER_CASE)
+// ['a', 'b', 'č', 'd', 'ǯ', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 'š', 'z', 'ž', 't', 'u', 'v', 'ü', 'ä', 'ö']
+
+console.log(OLONETS_UPPER_CASE)
+// ['A', 'B', 'Č', 'D', 'Ǯ', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'Š', 'Z', 'Ž', 'T', 'U', 'V', 'Ü', 'Ä', 'Ö']
+
+
+console.log(OLONETS_ALPHABET) // combined upper & lower case.
+
+```
+
 
 ### About Karelian language.
 
